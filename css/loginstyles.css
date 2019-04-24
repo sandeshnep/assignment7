@@ -1,0 +1,26 @@
+body{ 
+	font: 14px sans-serif; 
+	text-align: center; 
+}
+
+.wrapper{ 
+	display: inline-block;
+	width: 350px; 
+	padding: 20px; 
+}
+
+.main-menu { padding: 15px; }
+.main-menu ul { 
+	display: flex;
+	list-style-type: none;
+}
+
+.main-menu li {
+	margin-right: 10px;
+}
+
+.user-menu {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
