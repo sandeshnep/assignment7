@@ -23,19 +23,14 @@
             <article>
                 <h3>Motivation in general</h3>
                 <p>
-                    Hire me for a one on one personal training session. It's up to you to define the goals of the
-                    session, whether you need some
-                    extra training motivation or you just want to improve how you perform your exercises.
-                    This is a great option for both beginners and advanced and it is recommended if you are looking
-                    for specific fitness advice.
-                    I will be completely available to answer any questions and review your fitness performance.
-                    I can guarentee you our session will be extemely effective!
+                    Motivation is literally the desire to act and move toward a goal.
                 </p>
             </article>
 
             <aside>
                 <h4>self-motivaton</h4>
-                <p>Any local gym, or any space with sufficient room to work out.
+                <p>Self-motivation is, in its simplest form, the force that drives you to do things. 
+
                 </p>
 
                 
@@ -47,19 +42,13 @@
                 <h3>Extrinsic Motivation</h3>
 
                 <p>
-                    Group fitness classes focused on bodyweight training. The activity consists mainly of circuit
-                    based workouts to
-                    target the entire body.
-                    The classes are free and open to anyone, as they are offered by Meliora Fitness.
-                    They are a great opportunity for beginners to approach training, or for anyone curious to try
-                    calisthenics
-                    workouts.
+                    Motivation might be extrinsic, whereby a person is inspired by outside forces—other people or things that transpire.
                 </p>
             </article>
 
             <aside>
                 <h4>Reward-based motivation</h4>
-                <p>Leibner Cooper Room and Floor Courts in the GAC
+                <p>Incentive motivation or reward-based motivation is a type of motivation that is utilized when you or others know that they will be a reward once a certain goal is achieved.
                 </p>
 
                 
@@ -71,18 +60,14 @@
                 <h3>Intrinsic Motivation</h3>
 
                 <p>
-                    Group workshops focused on learing and practicing advanced calisthenics skills such as:
-                    humanflag, handstand, muscle up and front lever.
-                    The workshops are a recommende to those who already have experiece with calisthenics trining and
-                    have developed a basic foundation of strenght.
-                    The workshops have limited availability (Max 6 people per session) and last 2 hours.
+                    Motivation might be intrinsic, whereby the inspiration comes from within a person.
 
                 </p>
             </article>
 
             <aside>
                 <h4>Achievement-based motivation</h4>
-                <p>Leibner Cooper Room in the GAC
+                <p>Those who are constantly driven to acquire these positions and earn titles for themselves are typically dealing with achievement-based motivation.
                 </p>
 
                
@@ -92,6 +77,9 @@
         <footer class="call-to-action">
             <div class="small-title">please fill out</div>
             <a href="survey.php">quick survey</a>
+
+            <h5>Citation</h5>
+            <a href="https://www.lifehack.org/articles/productivity/6-types-of-motivation-explained.html">types of motivation</a>
         </footer>
     </main>
 
