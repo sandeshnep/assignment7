@@ -1,0 +1,368 @@
+/*
+Importing Custom Fonts
+*/
+
+@font-face {
+    font-family: 'lemonmilkregular';
+    src: url('lemonmilk-webfont.woff2') format('woff2'),
+         url('lemonmilk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lemonmilklight_italic';
+    src: url('lemonmilklightitalic-webfont.woff2') format('woff2'),
+         url('lemonmilklightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*
+CSS Architecture = SMACSS
+Base -> Layout -> Modules -> State -> Theme
+The CSS normalize is in a separate file
+*/
+
+/***************************
+    BASE
+****************************/
+
+body{
+    font-family: 'lemonmilkregular', "Arial Black", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 8fr auto;
+    background-color: black;
+    
+    height: auto;
+    padding: 10px 30px;
+    margin: 0;
+    
+}
+
+header h1{
+    margin: 0;
+}
+
+h2{
+    margin: 0px;
+    letter-spacing: 2px;
+}
+
+h3, h4{
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header img{
+    vertical-align: top;
+    display: inline-block;
+    width:  80px;
+}
+
+header a{
+    display: block;
+}
+
+header nav{
+    grid-column: 3/4;
+}
+
+header ul{
+    margin: 22px 0px 0px 0px;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+}
+
+
+header li a{
+   
+    padding: 0;
+    padding-bottom: 3px; 
+    margin: 0 10px;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+input{
+    border: 2px solid black;
+    padding: 5px;
+    
+}
+
+label{
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+main{
+    padding: 30px;
+}
+
+p{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+/***************************
+    LAYOUT
+****************************/
+
+#top-bar{
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.75);
+}
+
+#bottom-bar{
+    background-color: black;
+}
+
+
+#homepage-container{
+    margin: 0px auto 0px auto;
+    width: 100%;
+    height: 87.5vh;
+    max-width: 860px;
+    position: relative;
+    
+}
+
+.container{
+    margin: 0px auto 0px auto;
+    width: auto;
+    height: auto;
+    max-width: 860px;
+    position: relative;
+    
+}
+
+.behind{
+    z-index: -10;
+}
+
+.background-grid{
+    height: 89.5vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.section-grid{
+    display: grid;
+    grid-template-columns: 1.5fr 5fr 1fr; 
+    margin: -170px 20px 0px 20px;
+}
+
+
+.service-grid{
+    margin-top: 20px;
+    padding: 0px 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 30px;
+
+}
+
+.form-grid{
+    display: grid;
+    grid-auto-rows: auto auto auto auto auto auto auto;
+    grid-row-gap: 10px;
+}
+
+.form-wrapper{
+    position: relative;
+    z-index: 1000;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 68% auto;
+    grid-column-gap: 20px;
+    padding: 0px 30px;
+}
+
+.push-to-bottom{
+    height: 120vh;
+}
+/***************************
+    MODULES
+****************************/
+
+
+.hero-image{
+    margin: -88vh auto -50px auto;
+    max-width: 1100px;
+    height: 90vh;
+    position: relative;
+    z-index: -10;
+     
+}
+
+.large-image{
+    width: auto;
+    height: 90vh;
+}
+
+.button{
+    border: 10px solid black;
+    padding: 14px 10px 10px 18px;
+    margin-top: 9px;
+    display: flex;
+    height: 100px;
+    grid-column: 3/4;
+    max-width: 180px;
+    background-color: white;
+
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.75);
+}
+
+.button a{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.submit-button a{
+    text-decoration: none;
+    color: black;
+}
+
+.letter-spacing{
+    letter-spacing: 8px;
+}
+
+.catchphrase h2{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: black;
+    line-height: 1.6em;
+    margin: 0px;
+}
+
+.submit-button{
+    background-color: #fd42248f;
+    font-family: 'lemonmilkregular', "Arial Black", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    padding: 6px;
+    color: black;
+    
+    
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.55);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.55);
+}
+
+.background-container h2{
+    letter-spacing: 2px;
+}
+
+.service-grid article p{
+    border-right: 3px solid black;
+    padding: 15px 20px 15px 0px;
+    line-height: 1.5em;
+}
+
+.service-grid aside{
+    margin-top: 50px;
+}
+
+.price-box{
+    border: 2px solid black;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.newsletter-info{
+    text-align: right;
+    
+    width: 100%;
+
+}
+
+.newsletter-info img{
+    max-width: 300px;
+}
+
+.call-to-action{
+    text-align: center;
+    margin: 60px auto 20px auto;
+    letter-spacing: 1px;
+}
+
+.call-to-action .small-title{
+    font-family: 'lemonmilkregular', "Arial Black", sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 8px;
+
+    letter-spacing: 15px;
+    padding-left: 12px;
+}
+
+.call-to-action a{
+    border: 3px solid black;
+    padding: 3px;
+    margin-top: 3px;
+    color: black;
+    background-color: #FDF724;
+
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.65);
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.65);
+}
+
+/***************************
+    STATE
+****************************/
+
+.is-current{
+    border-bottom: 2px #FDF724 solid;
+    letter-spacing: 1px;
+    
+}
+
+/***************************
+    THEME
+****************************/
+
+.yellow{
+    color: #FDF724;
+}
+
+.yellow-background{
+    background-color: #FDF724;
+    
+}
+
+.black-background{
+    background-color: #0B090A;
+    
+}
+
+.white-background{
+    background-color: white;
+}
