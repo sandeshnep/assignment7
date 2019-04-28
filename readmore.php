@@ -1,20 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Assignment 06 | Services</title>
-    <?php include 'include/html-links.inc'; ?>
+<?php include 'include/header.inc';?>
+<title>Assignment 07 | Read More</title>
+<?php include 'include/html-links.inc'; ?>
 </head>
 
 <body>
 
-
-
     <?php include 'include/top-bar.inc'; ?>
-
 
     <main class="container white-background">
         <h2>Types of motivation </h2>
@@ -29,11 +20,11 @@
 
             <aside>
                 <h4>self-motivaton</h4>
-                <p>Self-motivation is, in its simplest form, the force that drives you to do things. 
+                <p>Self-motivation is, in its simplest form, the force that drives you to do things.
 
                 </p>
 
-                
+
             </aside>
         </section>
 
@@ -51,7 +42,7 @@
                 <p>Incentive motivation or reward-based motivation is a type of motivation that is utilized when you or others know that they will be a reward once a certain goal is achieved.
                 </p>
 
-                
+
             </aside>
         </section>
 
@@ -70,7 +61,7 @@
                 <p>Those who are constantly driven to acquire these positions and earn titles for themselves are typically dealing with achievement-based motivation.
                 </p>
 
-               
+
             </aside>
         </section>
 
@@ -82,9 +73,6 @@
             <a href="https://www.lifehack.org/articles/productivity/6-types-of-motivation-explained.html">types of motivation</a>
         </footer>
     </main>
-
-
-
 
 
 

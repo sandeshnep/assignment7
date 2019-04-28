@@ -39,16 +39,15 @@ body{
     background-color: #F5F5F5;
 }
 
-
 header{
     display: grid;
     grid-template-columns: 1fr 8fr auto;
     background-color: black;
-    
+
     height: auto;
     padding: 10px 30px;
     margin: 0;
-    
+
 }
 
 header h1{
@@ -97,9 +96,9 @@ header ul{
 
 
 header li a{
-   
+
     padding: 0;
-    padding-bottom: 3px; 
+    padding-bottom: 3px;
     margin: 0 10px;
     text-align: center;
     font-size: 17px;
@@ -109,7 +108,7 @@ header li a{
 input{
     border: 2px solid black;
     padding: 5px;
-    
+
 }
 
 label{
@@ -146,7 +145,7 @@ p{
     height: 87.5vh;
     max-width: 860px;
     position: relative;
-    
+
 }
 
 .container{
@@ -155,7 +154,7 @@ p{
     height: auto;
     max-width: 860px;
     position: relative;
-    
+
 }
 
 .behind{
@@ -170,7 +169,7 @@ p{
 
 .section-grid{
     display: grid;
-    grid-template-columns: 1.5fr 5fr 1fr; 
+    grid-template-columns: 1.5fr 5fr 1fr;
     margin: -170px 20px 0px 20px;
 }
 
@@ -214,7 +213,7 @@ p{
     height: 90vh;
     position: relative;
     z-index: -10;
-     
+
 }
 
 .large-image{
@@ -269,8 +268,8 @@ p{
     margin-top: 20px;
     padding: 6px;
     color: black;
-    
-    
+
+
     -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.55);
     -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.55);
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.55);
@@ -298,7 +297,7 @@ p{
 
 .newsletter-info{
     text-align: right;
-    
+
     width: 100%;
 
 }
@@ -335,6 +334,19 @@ p{
     box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.65);
 }
 
+.box
+{
+ width:1270px;
+ padding:20px;
+ background-color:#fff;
+ border:1px solid #ccc;
+ border-radius:5px;
+ margin-top:25px;
+ box-sizing:border-box;
+}
+
+
+
 /***************************
     STATE
 ****************************/
@@ -342,7 +354,7 @@ p{
 .is-current{
     border-bottom: 2px #FDF724 solid;
     letter-spacing: 1px;
-    
+
 }
 
 /***************************
@@ -355,12 +367,12 @@ p{
 
 .yellow-background{
     background-color: #FDF724;
-    
+
 }
 
 .black-background{
     background-color: #0B090A;
-    
+
 }
 
 .white-background{

@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Assignment 07 | User Survey</title>
-    <?php include 'include/html-links.inc'; ?>
+<?php include 'include/header.inc'; ?>
+  <title>Assignment 07 | User Survey</title>
+  <?php include 'include/html-links.inc'; ?>
 </head>
 
 <body>
-
-
 
     <?php include 'include/top-bar.inc'; ?>
 
@@ -31,23 +23,19 @@
                 <input type="email" name="email" id="email" required placeholder="email@example.com">
 
                  <label for="question1">What type of motivation works for you? </label>
-                <input type="text" name="question1" id="question1">
+                <input type="text" name="question1" id="question1" required>
 
                 <label for="question2">Are you driven by extrinsic motivation or intrinsic? </label>
-                <input type="text" name="question2" id="question2">
+                <input type="text" name="question2" id="question2" required>
 
                  <label for="question3">Do you think money motivates you more or internal happiness? </label>
-                <input type="text" name="question3" id="question3">
+                <input type="text" name="question3" id="question3" required>
 
                 <input type="submit" value="Submit" class="submit-button">
-
             </form>
-
-
         </div>
 
     </main>
-
     <?php include 'include/scripts.inc'; ?>
 </body>
 
