@@ -5,14 +5,17 @@ session_start();
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   header("location: login.php");
-  exit;
-}
+  exit; }
+
 include 'include/header.inc';
+
+
+
 ?>
 
   <title>Survey Data</title>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	<link rel="stylesheet" href="css/styles.css">
+	
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
@@ -40,6 +43,7 @@ include 'include/header.inc';
 			 <th>Question1</th>
 			 <th>Question2</th>
 			 <th>Question3</th>
+       <th>Timestamp</th>
        <th></th>
       </tr>
      </thead>
@@ -100,6 +104,7 @@ include 'include/header.inc';
 	 html += '<td contenteditable id="data4"></td>';
 	 html += '<td contenteditable id="data5"></td>';
 	 html += '<td contenteditable id="data6"></td>';
+   html += '<td id="data7"></td>';
    html += '<td><button type="button" name="insert" id="insert" class="btn btn-success btn-xs">Insert</button></td>';
    html += '</tr>';
    $('#user_data tbody').prepend(html);
