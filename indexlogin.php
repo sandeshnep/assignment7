@@ -13,8 +13,8 @@ include 'include/header.inc';
 
 ?>
 
-  <title>Survey Data</title>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<title>Survey Data</title>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
@@ -52,6 +52,8 @@ include 'include/header.inc';
   </div>
  </body>
 </html>
+
+
 
 <script type="text/javascript" language="javascript" >
  $(document).ready(function(){

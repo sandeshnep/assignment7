@@ -84,14 +84,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 }
 ?>
 
-<?php include 'include/header.inc';?>
-  <title>Login</title>
-<?php include 'include/html-links.inc';?>
+<?php include 'include/header.inc'; ?>
+<title>Login</title>
+<?php include 'include/html-links.inc'; ?>
 </head>
 <body>
-    <div class="wrapper">
-        <h2>Login</h2>
-        <p>Please fill in your credentials to login.</p>
+    <?php include 'include/top-bar.inc'; ?>
+
+    <main class="container white-background push-to-bottom">
+
+    <h2>Login</h2>
+    <div class="form-wrapper">
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
@@ -100,19 +103,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <span class="help-block"><?php echo $username_err; ?></span>
             </div>
 
+            <br>
+
             <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                 <label>Password:<sup>*</sup></label>
                 <input type="password" name="password" class="form-control">
                 <span class="help-block"><?php echo $password_err; ?></span>
             </div>
 
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Submit">
-            </div>
-
+            <input type="submit" class="submit-button" value="Submit">
+ 
             <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
 
         </form>
+
     </div>
+    </main>
+
 </body>
 </html>
