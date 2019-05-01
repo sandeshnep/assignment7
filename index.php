@@ -13,20 +13,20 @@
     </div>
 
     <figure class="hero-image">
-        <img class="large-image" src="images/background.jpg" alt="motivation quote">
+        <img class="large-image" src="images/motivation.jpg" alt="motivation quote">
     </figure>
 
     <section class="section-grid">
         <div class="catchphrase">
             <h2>
-                <a href="readmore.php">
+                <h2>
                     <span class="yellow-background">LET'S</span>
                     <br>
                     <span class="yellow-background">GET</span>
                     <br>
                     <span class="yellow-background">hyped!</span>
-                </a>
-                <a href="http://csc174.org/midterm/gilacqua/">orginal websites</a>
+                </h2>
+                
             </h2>
         </div>
 

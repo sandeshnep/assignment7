@@ -60,7 +60,7 @@ h2{
 }
 
 h3, h4{
-    margin-bottom: 0;
+    margin: 20px;
     letter-spacing: 1px;
 }
 
@@ -316,7 +316,7 @@ p{
     font-family: 'lemonmilkregular', "Arial Black", sans-serif;
     font-weight: lighter;
     font-style: italic;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 
     letter-spacing: 15px;
     padding-left: 12px;

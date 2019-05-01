@@ -66,11 +66,19 @@
         </section>
 
         <footer class="call-to-action">
-            <div class="small-title">please fill out</div>
+
+            <h3>please fill out</h3>
             <a href="survey.php">quick survey</a>
 
-            <h5>Citation</h5>
+            <br><br>
+
+            <h5>Citations</h5>
+            <a href="http://csc174.org/midterm/gilacqua/">Link to Original Website</a>
+
+
             <a href="https://www.lifehack.org/articles/productivity/6-types-of-motivation-explained.html">types of motivation</a>
+
+
         </footer>
     </main>
 
