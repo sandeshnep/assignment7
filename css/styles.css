@@ -157,6 +157,12 @@ p{
 
 }
 
+.background_image{
+    background-image: url('../images/motivation.jpg');
+    background-size: cover;
+}
+
+
 .behind{
     z-index: -10;
 }
